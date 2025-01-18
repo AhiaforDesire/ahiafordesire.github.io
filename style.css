@@ -1,0 +1,210 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    
+  }
+  
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  header nav ul li {
+    margin: 13px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .b{
+    font-size: 100px;
+    
+    color: rgb(231, 228, 10);
+    text-align: center;
+    padding-top: 55px;
+}
+  main {
+    padding: 20px;
+    text-align: center;
+    background-image: url(plan2.jpg); 
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+  
+  main img {
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  main video {
+    width: 80%;
+    margin: 20px 0;
+  }
+  
+  footer{
+    background-color: dimgray;
+width: 100%;
+height: 260px;
+padding-top: 10px;
+font-size: 30px;
+text-align: center;
+margin-bottom: 0px;
+
+}
+  .x{
+    color: black;
+    font-size:50px ;
+}
+.h{
+    text-align: center; 
+    font-size: 35px; 
+    color: black;
+}
+.f{
+    width: 100%;
+    height: 950px;
+    padding: 0%;
+    background-size: contain;
+    background-position: 0%;
+    text-align: center;
+    margin-bottom: 750px;
+}
+.g{
+    
+    text-align: center; 
+    margin-top: 0px; 
+    padding-top: 20px;
+    font-size: 70px;
+    color:black;
+   
+    font-style: italic;
+    animation: animation1 3s infinite ease-in-out;
+}
+@keyframes animation1{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+         transform: translateY(-10px);
+    }
+    100%{
+        transform:  translateY(0px);
+    }
+    .i{
+        color: black;
+        text-decoration: none;
+    }
+}
+    .k{
+        width: 40%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: black;
+        text-decoration: none;
+        
+    }
+    .l{
+        width: 30%; 
+        height: 450px;
+        float: left; 
+        background-image: url(pyramides.jpg);
+        margin-left: 20px;
+        background-position: left;
+        border-radius: 5px; 
+        background-size: cover;
+    }
+    .m{
+    width: 30%; 
+    height: 450px;
+    float: left; 
+    background-image: url(grande\ muraille\ de\ chine.jpg);
+    margin-left: 20px ;
+    background-position: center;
+    border-radius: 5px;
+    background-size: cover;
+
+    }
+    .n{
+    width: 30%;
+    height: 450px;
+    float: left;
+    background-image: url(colisée.jpg);
+    background-position: center;
+    margin-left: 20px;
+    margin-top: 0px;
+    border-radius: 5px;
+    background-size: cover;
+    
+    }
+    .o{
+        width: 30%; 
+        height: 700px;
+        float: left; 
+        background-image: url(statue\ de\ la\ liberte.jpg);
+        margin-left: 20px;
+        background-position: left;
+        border-radius: 5px;
+        margin-top: 30px;
+        background-size: cover;
+
+    }
+    .p{
+        width: 30%; 
+        height: 700px;
+        float: left; 
+        background-image: url(tour\ eiffel.jpg);
+        margin-left: 20px ;
+        background-position: center;
+        border-radius: 5px;
+        margin-top: 30px;
+        background-size: cover;
+
+    }
+    .q{
+        width: 30%; 
+        height: 700px;
+        float: left;
+        background-image: url(leChristredempteur.jpg);
+        background-position: center;
+        margin-left: 20px;
+        margin-top: 0px;
+        border-radius: 5px;
+        margin-top: 30px;
+        background-size: cover;
+        }
+       
+        .vivi{
+            height: 1000px;
+        }
